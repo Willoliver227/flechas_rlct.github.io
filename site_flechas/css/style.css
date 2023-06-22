@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(../img/paper.jpeg);
+   background-size:cover;
+   background-position: center;
+   height: 100vh;
+   text-align: center;
+   justify-content: center;
+   height: 1500px;
+   padding: px;
+}
+.header{
+    padding: 20px;
+}
+.instagram-button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #e4405f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    height: 73px;
+}
+.instagram-button:hover {
+    background-color: #d13252;
+}
+h1{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+h2, p{
+    color: whitesmoke;
+    text-align: center;
+    height: 100px;
+    font-family: 'mulish', sans-serif;
+}
+.container{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur;
+    -webkit-backdrop-filter: blur;
+    height: 700px;
+    border-radius: 10px;
+}
